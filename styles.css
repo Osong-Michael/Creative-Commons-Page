@@ -64,3 +64,81 @@
   font-size: 18px;
   line-height: 18px;
 }
+
+.main-program {
+  width: 100%;
+  height: 1200px;
+  background-image: url('img/pattern_bg.png');
+  background-repeat: repeat;
+  background-color: var(--dark);
+  font-family: var(--ff-1);
+}
+
+.main-program h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 30px;
+}
+
+.underline {
+  width: 53px;
+  border-bottom: 1px solid var(--light-red);
+  margin: 0px auto 54px;
+}
+
+.program-list {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.programs {
+  width: 100%;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 5px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.p-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.p-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-red);
+  font-size: 20px;
+  width: 22%;
+}
+
+.p-paragraph {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.main-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-btn button {
+  font-size: 22px;
+  font-family: var(--ff-1);
+  padding: 30px;
+  border: 1px solid var(--light-red);
+  background-color: var(--light-red);
+  color: #fff;
+}
