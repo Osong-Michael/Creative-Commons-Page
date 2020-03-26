@@ -134,6 +134,7 @@ body {
   background-color: var(--dark);
   color: #fff;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .footer-1 h2 {
@@ -143,7 +144,7 @@ body {
 .footer-logos {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: 30px auto 0;
   box-sizing: border-box;
 }
@@ -152,6 +153,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .image-1 {
@@ -180,10 +182,35 @@ body {
 
 .just-u {
   height: 40px;
+  padding-top: 10px;
 }
 
 .special {
   width: 100%;
   margin: 0 auto;
   justify-content: space-around;
+}
+
+.footer-2 {
+  width: 100%;
+}
+
+.footer-2-ctn {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-2-img {
+  width: 50%;
+}
+
+.footer-2-img img {
+  width: 80%;
+}
+
+.footer-2-txt {
+  width: 50%;
 }
