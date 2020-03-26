@@ -1,0 +1,66 @@
+:root {
+  --dark: #272A31;
+  --light-red: #EC5242;
+  --light: #D3D3D3;
+
+  --ff-1: 'Lato', sans-serif;
+}
+
+@font-face {
+  src: url('fonts/Cocogoose_trial.otf');
+  font-family: Coco;
+}
+
+.intro {
+  background-image: url('img/main_big.png');
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.intro-top-icon {
+  padding: 15px 30px;
+  color: var(--dark);
+}
+
+.intro-main-highlight {
+  width: 95%;
+  margin: 60px auto 0 auto;
+}
+
+.intro-main-highlight img {
+  width: 100%;
+}
+
+.intro-paragraph {
+  border: 4px solid #fff;
+  width: 90%;
+  margin: 30px auto 10px auto;
+  padding: 10px;
+  text-align: start;
+  font-size: 18px;
+  font-family: var(--ff-1);
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.date-venue {
+  text-align: start;
+  line-height: 10px;
+  width: 90%;
+  margin: 30px auto 0px auto;
+  color: var(--dark);
+}
+
+.date-venue h2 {
+  font-size: 30px;
+  font-family: Coco;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.date-venue p {
+  font-family: var(--ff-1);
+  font-size: 18px;
+  line-height: 18px;
+}
