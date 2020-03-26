@@ -1,0 +1,116 @@
+:root {
+  --dark: #272A31;
+  --light-red: #EC5242;
+  --light: #D3D3D3;
+
+  --ff-1: 'Lato', sans-serif;
+}
+
+@font-face {
+  src: url('fonts/Cocogoose_trial.otf');
+  font-family: Coco;
+}
+
+body {
+  font-family: var(--ff-1);
+  color: var(--dark);
+}
+
+.hello-world {
+  font-family: var(--ff-1);
+  width: 100%;
+  text-align: center;
+}
+
+.hello-world h1 {
+  font-weight: lighter;
+  color: var(--light-red);
+  font-size: 1.875rem;
+}
+
+.hello-world img {
+  width: 90%;
+}
+
+.about-page {
+  width: 85%;
+  margin: 40px auto 0;
+  border: 1px solid var(--light);
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-page p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.contact-info {
+  width: 100%;
+  text-align: center;
+  line-height: 8px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.contact-info a {
+  color: inherit;
+  font-weight: bolder;
+}
+
+.about-logo {
+  width: 100%;
+}
+
+.about-logo-header h2 {
+  text-align: center;
+  line-height: 15px;
+}
+
+.about-logo-header {
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+.about-logo-txt {
+  text-align: center;
+  margin-top: 5px;
+  line-height: 10px;
+}
+
+.about-logo-img {
+  border: 1px solid var(--dark);
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.about-logo-img img {
+  width: 50%;
+}
+
+.about-past {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.about-past-header h2 {
+  text-align: center;
+}
+
+.underline-2 {
+  width: 20px;
+}
+
+.about-past-img-view {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.img-1 {
+  margin-bottom: 15px;
+}

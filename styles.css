@@ -83,12 +83,12 @@
 .underline {
   width: 53px;
   border-bottom: 1px solid var(--light-red);
-  margin: 0px auto 54px;
+  margin: 0px auto;
 }
 
 .program-list {
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
 
 .programs {
@@ -112,10 +112,12 @@
 .p-header {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   color: var(--light-red);
-  font-size: 20px;
-  width: 22%;
+  font-size: 18px;
+  width: 25%;
+  padding: 10px;
+  margin-right: 5px;
 }
 
 .p-paragraph {
@@ -125,6 +127,7 @@
   font-size: 18px;
   line-height: 30px;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .main-btn {
