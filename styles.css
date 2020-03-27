@@ -23,6 +23,10 @@
   color: var(--dark);
 }
 
+.intro-top-icon i {
+  color: var(--dark);
+}
+
 .intro-main-highlight {
   width: 95%;
   margin: 60px auto 0 auto;
