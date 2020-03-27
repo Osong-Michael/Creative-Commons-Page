@@ -63,6 +63,8 @@ body {
 
 .about-logo {
   width: 100%;
+  background-color: #fff;
+  padding-bottom: 20px;
 }
 
 .about-logo-header h2 {
@@ -72,7 +74,7 @@ body {
 
 .about-logo-header {
   width: 100%;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 
@@ -95,7 +97,8 @@ body {
 
 .about-past {
   width: 100%;
-  margin-top: 40px;
+  padding-top: 40px;
+  background-color: #fff;
 }
 
 .about-past-header h2 {
