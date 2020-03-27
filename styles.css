@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 footer {
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 .intro {
@@ -160,7 +160,7 @@ footer {
 
 .featured-speakers-ctn {
   width: 100%;
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 .featured-speakers {
@@ -309,7 +309,7 @@ footer {
   }
 
   .program-list{
-    width: 85%;
+    width: 90%;
     display: grid;
     justify-content: center;
     grid-column-gap: 5px;

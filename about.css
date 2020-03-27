@@ -226,3 +226,45 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+
+
+@media screen and (max-width: 768px) {
+  .gone {
+    display: none;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .hello-world h1 {
+    display: none;
+  }
+
+  .hello-world img {
+    padding-top: 50px;
+  }
+
+  .hello-world {
+    width: 60%;
+    margin: auto;
+  }
+
+  .about-page {
+    width: 60%;
+  }
+
+  .about-page p::after {
+    content: 
+    'So if you are active and engaged in the worlds of open content annd knowledge - free software'
+    'advocates, Wikipedians, Open knowledge, galleries, libraries museums, archives, governments and foundations, lawyers and activists'
+    '- we hope you will cosider joining us this year to build a stronger more vibrant commons together.';
+  }
+
+  .about-logo-img {
+    width: 50%;
+  }
+
+  .about-past-img-view {
+    display: flex;
+  }
+}
