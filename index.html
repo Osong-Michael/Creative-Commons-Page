@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="about.css">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/640b8b4dbe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>CC Global Summit</title>
   <link rel="shortcut icon" type="image/jpg" href="img/title-logo.jpg">
 </head>
@@ -13,7 +15,21 @@
   <header></header>
   <section class="intro">
     <div class="intro-top-icon">
-      <i class="fas fa-bars fa-3x"></i>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <a href="#" class="text-white">About</a>
+            <div>
+              <a href="#" class="text-white">Tickets</a>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="p-1"><i class="fas fa-bars fa-2x"></i></span>
+          </button>
+        </nav>
+      </div>
     </div>
     <div class="intro-main-highlight">
       <img src="img/68747470733a2f2f73756d6d69742e63636b6f7265612e6f72672f696d616765732f626173652f7469746c652e706e67.png" alt="">
@@ -34,7 +50,7 @@
     <div class="underline"></div>
     <div class="program-list">
       <div class="programs">
-        <div class="p-icon"><img src="img/program_icon_01.png" alt=""></div>
+        <div class="p-icon"><a href="#"><img src="img/program_icon_01.png" alt=""></a></div>
         <div class="p-header">
           <h3>Lecture</h3>
         </div>
@@ -43,7 +59,7 @@
         </div>
       </div>
       <div class="programs">
-        <div class="p-icon"><img src="img/program_icon_02.png" alt=""></div>
+        <div class="p-icon"><a href="#"><img src="img/program_icon_02.png" alt=""></a></div>
         <div class="p-header">
           <h3>CC Exhibiton</h3>
         </div>
@@ -52,7 +68,7 @@
         </div>
       </div>
       <div class="programs">
-        <div class="p-icon"><img src="img/program_icon_03.png" alt=""></div>
+        <div class="p-icon"><a href="#"><img src="img/program_icon_03.png" alt=""></a></div>
         <div class="p-header">
           <h3>Forum</h3>
         </div>
@@ -61,7 +77,7 @@
         </div>
       </div>
       <div class="programs">
-        <div class="p-icon"><img src="img/program_icon_04.png" alt=""></div>
+        <div class="p-icon"><a href="#"><img src="img/program_icon_04.png" alt=""></a></div>
         <div class="p-header">
           <h3>Workshop</h3>
         </div>
@@ -70,7 +86,7 @@
         </div>
       </div>
       <div class="programs">
-        <div class="p-icon"><img src="img/program_icon_05.png" alt=""></div>
+        <div class="p-icon"><a href="#"><img src="img/program_icon_05.png" alt=""></a></div>
         <div class="p-header">
           <h3>CC Ignite</h3>
         </div>
@@ -115,6 +131,25 @@
       <button>MORE &nbsp;<i class="fas fa-chevron-down"></i></button>
     </div>
   </section>
-  
+  <footer>
+    <div class="footer-1">
+      <h2>Partner</h2>
+      <div class="underline"></div>
+      <div class="footer-logos">
+        <div class="f-images">
+          <div class="image-1 image-2"><a href="#"><img src="img/moz.PNG" alt=""></a></div>
+          <div class="image-1"><a href="#"><img src="img/google.png" alt=""></a></div>
+          <div class="image-1"><a href="#"><img src="img/naver-logo-png-naver-logo-512.png" alt=""></a></div>
+        </div>
+        <div class="f-images special">
+          <div><a href="#"><img class="image-1 image-2 just" src="img/logo-kakao-png-open-1000.png" alt=""></a></div>
+          <div><a href="#"><img class="image-1 just-u" src="img/airbnb.png" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
