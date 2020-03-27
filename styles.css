@@ -224,7 +224,7 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-  .header, .see-more {
+  .header, .see-more, .speaker-none {
     display: none;
   }
   
@@ -309,14 +309,18 @@ footer {
   }
 
   .program-list{
+    width: 85%;
     display: grid;
+    justify-content: center;
     grid-column-gap: 5px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
   }
 
   .programs {
     display: flex;
     flex-direction: column;
+    height: 280px;
+    padding: 0;
   }
 
   .p-icon {
@@ -332,7 +336,7 @@ footer {
     text-align: center;
   }
 
-  .main-btn {
+  .main-btn, .speaker-btn {
     display: none;
   }
 
@@ -352,5 +356,13 @@ footer {
 
   .see-more a:hover {
     color: var(--light);
+  }
+
+  .speaker-ctn {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid red;
+    padding-bottom: 50px;
   }
 }
