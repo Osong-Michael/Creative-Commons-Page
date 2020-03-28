@@ -1,8 +1,7 @@
 :root {
-  --dark: #272A31;
-  --light-red: #EC5242;
-  --light: #D3D3D3;
-
+  --dark: #272a31;
+  --light-red: #ec5242;
+  --light: #d3d3d3;
   --ff-1: 'Lato', sans-serif;
 }
 
@@ -77,7 +76,6 @@ body {
   padding-top: 40px;
 }
 
-
 .about-logo-txt {
   text-align: center;
   margin-top: 5px;
@@ -118,9 +116,8 @@ body {
 
 .about-past-img-view {
   text-align: center;
-  margin-top: 30px;
   width: 70%;
-  margin:0 auto ;
+  margin: 30px auto 0 auto;
 }
 
 .about-past-img-view img {
@@ -227,13 +224,11 @@ body {
   vertical-align: middle;
 }
 
-
 @media screen and (max-width: 768px) {
   .gone {
     display: none;
   }
 }
-
 
 @media (min-width: 769px) {
   .hello-world h1 {
@@ -254,10 +249,10 @@ body {
   }
 
   .about-page p::after {
-    content: 
-    'So if you are active and engaged in the worlds of open content annd knowledge - free software'
-    'advocates, Wikipedians, Open knowledge, galleries, libraries museums, archives, governments and foundations, lawyers and activists'
-    '- we hope you will cosider joining us this year to build a stronger more vibrant commons together.';
+    content:
+      'So if you are active and engaged in the worlds of open content annd knowledge - free software'
+      'advocates, Wikipedians, Open knowledge, galleries, libraries museums, archives, governments and foundations, lawyers and activists'
+      '- we hope you will cosider joining us this year to build a stronger more vibrant commons together.';
   }
 
   .about-logo-img {

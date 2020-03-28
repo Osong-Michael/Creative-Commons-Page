@@ -1,8 +1,7 @@
 :root {
-  --dark: #272A31;
-  --light-red: #EC5242;
-  --light: #D3D3D3;
-
+  --dark: #272a31;
+  --light-red: #ec5242;
+  --light: #d3d3d3;
   --ff-1: 'Lato', sans-serif;
 }
 
@@ -10,7 +9,6 @@
   src: url('fonts/Cocogoose_trial.otf');
   font-family: Coco;
 }
-
 
 .main {
   border: 1px solid var(--dark);
@@ -31,7 +29,6 @@
   text-transform: uppercase;
 }
 
-
 .ticket-table {
   background-image: url('../img/ticket_table_bg.png');
   width: 978px;
@@ -39,13 +36,14 @@
   margin: auto;
 }
 
-.ticket-table th, .ticket-table td {
+.ticket-table th,
+.ticket-table td {
   padding: 7px 14px;
   text-align: center;
   vertical-align: middle;
 }
 
-.ticket-table-head th, 
+.ticket-table-head th,
 .ticket-table-row td {
   border-right: 1px solid rgb(177, 177, 179);
   border-bottom: 1px solid rgb(177, 177, 179);
@@ -69,7 +67,6 @@
   text-decoration: none;
 }
 
-
 @media screen and (max-width: 1020px) {
   .main {
     text-align: center;
@@ -90,7 +87,8 @@
     width: 100%;
   }
 
-  .table-after th, .table-after td{
+  .table-after th,
+  .table-after td {
     border: 1px solid var(--dark);
     padding: 10px 15px;
     text-align: center;
