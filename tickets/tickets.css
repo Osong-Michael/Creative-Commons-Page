@@ -60,7 +60,40 @@
   font-weight: bold;
 }
 
+.table-after {
+  display: none;
+}
+
 .ticket-price a:hover {
   color: var(--dark);
   text-decoration: none;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .main {
+    text-align: center;
+    width: 80%;
+  }
+
+  .ticket-table-ctn {
+    display: none;
+  }
+
+  .table-after {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  .table-after table {
+    width: 100%;
+  }
+
+  .table-after th, .table-after td{
+    border: 1px solid var(--dark);
+    padding: 10px 15px;
+    text-align: center;
+    vertical-align: middle;
+  }
 }
