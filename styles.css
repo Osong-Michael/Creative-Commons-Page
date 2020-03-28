@@ -55,6 +55,10 @@ footer {
   font-weight: 500;
 }
 
+.ds-none {
+  display: none;
+}
+
 .date-venue {
   text-align: start;
   line-height: 10px;
