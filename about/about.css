@@ -224,6 +224,11 @@ body {
   vertical-align: middle;
 }
 
+.contact-info a:hover {
+  color: var(--light-red);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .gone {
     display: none;
