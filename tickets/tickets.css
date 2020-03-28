@@ -1,10 +1,66 @@
+:root {
+  --dark: #272A31;
+  --light-red: #EC5242;
+  --light: #D3D3D3;
+
+  --ff-1: 'Lato', sans-serif;
+}
+
+@font-face {
+  src: url('fonts/Cocogoose_trial.otf');
+  font-family: Coco;
+}
+
+
 .main {
-  border: 1px solid red;
-  width: 50%;
+  border: 1px solid var(--dark);
+  max-width: 600px;
   margin: auto;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: var(--light);
 }
 
 .main svg {
   width: 10px;
   height: 10px;
+}
+
+.step-1 {
+  color: var(--light-red);
+  text-transform: uppercase;
+}
+
+
+.ticket-table {
+  background-image: url('../img/ticket_table_bg.png');
+  width: 978px;
+  height: 284px;
+  margin: auto;
+}
+
+.ticket-table th, .ticket-table td {
+  padding: 7px 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ticket-table-head th, 
+.ticket-table-row td {
+  border-right: 1px solid rgb(177, 177, 179);
+  border-bottom: 1px solid rgb(177, 177, 179);
+}
+
+.ticket-table-row1 td {
+  border-right: 1px solid rgb(177, 177, 179);
+}
+
+.ticket-price a {
+  color: var(--light-red);
+  font-weight: bold;
+}
+
+.ticket-price a:hover {
+  color: var(--dark);
+  text-decoration: none;
 }
