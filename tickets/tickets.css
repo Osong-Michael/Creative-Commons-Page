@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  src: url('fonts/Cocogoose_trial.otf');
+  src: url('../fonts/Cocogoose_trial.otf');
   font-family: Coco;
 }
 
@@ -81,6 +81,7 @@
     display: block;
     width: 90%;
     margin: auto;
+    background-color: #fff;
   }
 
   .table-after table {
@@ -93,5 +94,9 @@
     padding: 10px 15px;
     text-align: center;
     vertical-align: middle;
+  }
+
+  .table-after th, .bg-light {
+    background-color: var(--light);
   }
 }
