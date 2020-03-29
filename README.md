@@ -9,15 +9,15 @@ My project was to replicate the Creative Commons 2015 Global Summit Conference s
 ## Screenshots for various screen sizes
 <br>
 <p float="left">
- <img src="screenshots/home-big.PNG" width="350"> &nbsp; <img src="screenshots/home-small.PNG" width="350">
+ <img src="screenshots/home-big.PNG" width="500"> &nbsp; <img src="screenshots/home-small.PNG" width="500">
 </p>
 <br>
 <p float="left">
-<img src="screenshots/about-big.PNG" width="350"> &nbsp; <img src="screenshots/about-small.PNG" width="350">
+<img src="screenshots/about-big.PNG" width="500"> &nbsp; <img src="screenshots/about-small.PNG" width="500">
  </p>
 <br>
  <p float="left">
-<img src="screenshots/tickets-big.PNG" width="350"> &nbsp; <img src="screenshots/tickets-small.PNG" width="350">
+<img src="screenshots/tickets-big.PNG" width="500"> &nbsp; <img src="screenshots/tickets-small.PNG" width="500">
  </p>
 <br>
 
@@ -46,7 +46,7 @@ My project was to replicate the Creative Commons 2015 Global Summit Conference s
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [OA7 issues page](https://github.com/OA7/Creative-Commons-Page/issues).
+Feel free to check the [Issues page](https://github.com/OA7/Creative-Commons-Page/issues).
 
 ## Show your support
 
@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgements
   * [Microverse](https://www.microverse.org/)
-  * The original designer of this UI of the website is [Cindy Shin](https://www.behance.net/adagio07)
+  * The original designer of the UI for this website is [Cindy Shin](https://www.behance.net/adagio07)
 
 ## License
  Distributed under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
