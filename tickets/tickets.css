@@ -96,7 +96,8 @@
     vertical-align: middle;
   }
 
-  .table-after th, .bg-light {
+  .table-after th,
+  .bg-light {
     background-color: var(--light);
   }
 }
