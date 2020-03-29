@@ -30,7 +30,7 @@ My project was to replicate the Creative Commons 2015 Global Summit Conference s
 
 ## Video Link
 
-[Video Explanation Link]()
+[Video Explanation Link](https://youtu.be/XuFRXxsYnOo)
 
 
 ## Author
