@@ -9,15 +9,15 @@ My project was to replicate the Creative Commons 2015 Global Summit Conference s
 ## Screenshots for various screen sizes
 <br>
 <p float="left">
- <img src="screenshots/home-big.PNG" width="500"> &nbsp; <img src="screenshots/home-small.PNG" width="500">
+ <img src="screenshots/home-big.PNG" width="400"> &nbsp; <img src="screenshots/home-small.PNG" width="350">
 </p>
 <br>
 <p float="left">
-<img src="screenshots/about-big.PNG" width="500"> &nbsp; <img src="screenshots/about-small.PNG" width="500">
+<img src="screenshots/about-big.PNG" width="400"> &nbsp; <img src="screenshots/about-small.PNG" width="350">
  </p>
 <br>
  <p float="left">
-<img src="screenshots/tickets-big.PNG" width="500"> &nbsp; <img src="screenshots/tickets-small.PNG" width="500">
+<img src="screenshots/tickets-big.PNG" width="400"> &nbsp; <img src="screenshots/tickets-small.PNG" width="350">
  </p>
 <br>
 
