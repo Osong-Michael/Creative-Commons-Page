@@ -1,0 +1,391 @@
+:root {
+  --dark: #272a31;
+  --light-red: #ec5242;
+  --light: #d3d3d3;
+  --ff-1: 'Lato', sans-serif;
+}
+
+@font-face {
+  src: url('fonts/Cocogoose_trial.otf');
+  font-family: Coco;
+}
+
+body {
+  background-image: url('img/main_big.png');
+  background-size: cover;
+  width: 100%;
+  animation: transitionIn 0.75s;
+}
+
+footer {
+  background-color: var(--light);
+}
+
+.intro {
+  padding-bottom: 60px;
+}
+
+.intro-top-icon {
+  padding: 15px 30px;
+  color: var(--dark);
+}
+
+.intro-top-icon i {
+  color: var(--dark);
+}
+
+.intro-main-highlight {
+  width: 90%;
+  margin: 60px auto 0 auto;
+}
+
+.intro-main-highlight img {
+  width: 100%;
+}
+
+.intro-paragraph {
+  border: 4px solid #fff;
+  width: 90%;
+  margin: 30px auto 10px auto;
+  padding: 10px;
+  text-align: start;
+  font-size: 18px;
+  font-family: var(--ff-1);
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.ds-none {
+  display: none;
+}
+
+.date-venue {
+  text-align: start;
+  line-height: 10px;
+  width: 90%;
+  margin: 30px auto 0 auto;
+  color: var(--dark);
+}
+
+.date-venue h1 {
+  font-size: 30px;
+  font-family: Coco, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.date-venue p {
+  font-family: var(--ff-1);
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.main-program {
+  width: 100%;
+  background-image: url('img/pattern_bg.png');
+  background-repeat: repeat;
+  background-color: var(--dark);
+  font-family: var(--ff-1);
+}
+
+.main-program h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 30px;
+}
+
+.underline {
+  width: 53px;
+  border-bottom: 1px solid var(--light-red);
+  margin: 0 auto;
+}
+
+.program-list {
+  width: 90%;
+  margin: 50px auto 0;
+}
+
+.programs {
+  width: 100%;
+  color: #fff;
+  box-sizing: border-box;
+  display: table;
+  padding: 16px 5px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.p-icon {
+  display: table-cell;
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.p-header {
+  display: table-cell;
+  color: var(--light-red);
+  font-size: 18px;
+  width: 25%;
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.p-paragraph {
+  width: 50%;
+  display: table-cell;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.main-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-btn button {
+  font-size: 22px;
+  font-family: var(--ff-1);
+  padding: 30px;
+  border: 1px solid var(--light-red);
+  background-color: var(--light-red);
+  color: #fff;
+}
+
+.featured-speakers-ctn {
+  width: 100%;
+  background-color: var(--light);
+}
+
+.featured-speakers {
+  font-family: var(--ff-1);
+  color: var(--dark);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.featured-speakers h2 {
+  text-align: center;
+  font-size: 26px;
+  padding-top: 30px;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.speaker-txt {
+  padding-left: 15px;
+}
+
+.red {
+  color: var(--light-red);
+  font-weight: 400;
+}
+
+.line {
+  width: 20px;
+  border-bottom: 1px solid #666;
+}
+
+.speaker-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.speaker-btn button {
+  padding: 15px;
+  font-size: 16px;
+  font-family: var(--ff-1);
+  width: 100%;
+  border: 1px solid var(--dark);
+  color: var(--dark);
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.speaker-btn i {
+  color: var(--light-red);
+}
+
+.programs:hover {
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  .header,
+  .see-more,
+  .speaker-none {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .intro-top-icon {
+    display: none;
+  }
+
+  .top-menu-ctn {
+    background-color: var(--dark);
+  }
+
+  .top-menu-items {
+    width: 70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5px 0;
+    height: 36px;
+  }
+
+  .top-list {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+  }
+
+  .top-list li {
+    padding: 0 5px;
+  }
+
+  .top-list a {
+    color: var(--light);
+  }
+
+  .bottom-menu {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .my-nav {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-list a {
+    color: var(--dark);
+  }
+
+  .nav-list button {
+    padding: 10px 5px;
+    color: var(--light-red);
+    background-color: #fff;
+    border: 4px solid var(--light-red);
+  }
+
+  .intro-main-highlight,
+  .intro-paragraph,
+  .date-venue {
+    width: 70%;
+  }
+
+  .intro-main-highlight img {
+    width: 80%;
+  }
+
+  .intro-paragraph {
+    width: 45%;
+    margin-left: 15%;
+  }
+
+  .program-list {
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .programs {
+    width: 20%;
+    margin-right: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-icon {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .p-header {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .p-space {
+    margin-top: 30px;
+  }
+
+  .p-paragraph {
+    width: 100%;
+    text-align: center;
+    word-break: keep-all;
+    word-wrap: normal;
+  }
+
+  .main-btn,
+  .speaker-btn {
+    display: none;
+  }
+
+  .see-more {
+    text-align: center;
+  }
+
+  .see-more a {
+    color: var(--light);
+  }
+
+  .top-list a:hover,
+  .nav-list a:hover {
+    text-decoration: none;
+    color: var(--light-red);
+  }
+
+  .see-more a:hover {
+    color: var(--light);
+  }
+
+  .speaker-ctn {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
