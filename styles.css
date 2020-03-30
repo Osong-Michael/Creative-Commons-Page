@@ -312,16 +312,16 @@ footer {
 
   .program-list {
     width: 90%;
-    display: grid;
-    justify-content: center;
-    grid-column-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
+    display: flex;
+    box-sizing: border-box;
   }
 
   .programs {
+    width: 20%;
+    margin-right: 5px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 290px;
   }
 
   .p-icon {
@@ -334,6 +334,10 @@ footer {
     width: 100%;
     height: 30px;
     margin-bottom: 10px;
+  }
+
+  .p-space {
+    margin-top: 30px;
   }
 
   .p-paragraph {
