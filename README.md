@@ -30,7 +30,7 @@ My project was to replicate the Creative Commons 2015 Global Summit Conference s
 
 ## Live Demo Link
 
-[Live Link](https://oa7.github.io/cc.github.io/)
+[Live Link](https://oa7.github.io/Creative-Commons-Page/index.html)
 
 ## Video Link
 
